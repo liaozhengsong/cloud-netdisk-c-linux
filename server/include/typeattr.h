@@ -1,0 +1,34 @@
+#ifndef _TYPEATTR_
+#define _TYPEATTR_
+enum functype
+{
+    USEROPT,
+    USEROPTERROR,
+    LOGINSUB,
+    LOGINUSER,
+    LOGINSALT,
+    LOGINPASSWORD,
+    SQLERROR,
+    LOGINSUCCESS,
+    LOGINFAIL,
+    SIGNUPSUB,
+    SIGNUPUSER,
+    SIGNUPPASSWORD,
+    CMD,
+    LS,
+    CD,
+    PUTS,
+    PUTSFILE,
+    PUTSEND,
+    PUTSTER,
+    GETS,
+    GETSFILE,
+    GETSEND,
+    REMOVE,
+    PWD,
+    PUTSING,
+    FILEERROR,
+    MKDIR
+};
+#endif
+
